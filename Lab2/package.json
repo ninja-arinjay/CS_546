@@ -1,0 +1,12 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "description": "Lab2 for Web Development",
+  "main": "app.js",
+  "scripts": {
+    "test": "start : node app.js",
+    "start": "node app.js"
+  },
+  "author": "Arinjay Panwar 20013410",
+  "license": "MIT"
+}

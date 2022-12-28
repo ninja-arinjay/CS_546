@@ -1,0 +1,73 @@
+body{
+    background:
+    repeating-linear-gradient(
+        45deg,
+        transparent 0,
+        transparent 25%,
+        lightgreen 50%
+   )
+   repeating-linear-gradient(
+        45deg,
+        transparent 0,
+        transparent 25%,
+        pink 10%,
+        lavender 50%
+    ), white;
+    background-blend-mode: multiply;
+    background-size: 100px 100px;
+}
+header {
+    border-bottom: 3px solid f3c3c;
+}
+  
+h1 {
+    padding: 10px;
+    color: blue;
+    font-size: 2rem;
+    text-align: center;
+    font-family: fantasy;
+    letter-spacing: 4px;
+}
+
+form {
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+}
+
+.is-green {
+    color: #00E676;
+}
+
+.is-red {
+    color: #FF3D00;
+}
+
+div.error{
+    font-weight: bold;
+    text-align: center;
+}
+button{
+    border-radius: 8px;
+    background-color: blueviolet;
+    font-weight: bolder;
+
+}
+
+button:hover{
+    background-color:magenta;
+    font-weight: bolder;
+}
+
+footer{
+    color: rgb(46, 43, 39);
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-family: fantasy;
+}
+
+input[type="text"]{
+    border: 2px solid;
+    border-radius: 4px;
+}
